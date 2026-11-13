@@ -82,7 +82,7 @@ for i in range(28):
 
         chstr = itos[i] + itos[j]
         plt.text(j, i, chstr, ha="center", va="bottom", color="gray")
-        plt.text(j, i, N[i, j].item(), ha="center", va="top", color="gray")
+        plt.text(j, i, str(N[i, j].item()), ha="center", va="top", color="gray")
 plt.axis("off")
 
 # Video timestamp: 20:40 ("The spelled-out intro to language modeling: building makemore")
